@@ -8,7 +8,63 @@ a {
   color: inherit;
 }
 
-img,
-video {
+img {
   display: block;
+  width: 32px;
+  height: 28px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 200px;
+  padding: 50px 20px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #7b5cff;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu-bottom span {
+color: #E5807C;
+text-align: center;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content {
+  flex: 1;
+  background: #fff;
+}
+
+.menu-top {
+  gap: 100px;
 }
